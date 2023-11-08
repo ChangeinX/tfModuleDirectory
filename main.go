@@ -2,8 +2,9 @@ package main
 
 import (
 	"fmt"
-	"tfModuleDirectory/pkg/gitignore"
-	"tfModuleDirectory/pkg/terraform"
+
+	"github.com/ChangeinX/tfModuleDirectory/pkg/gitignore"
+	"github.com/ChangeinX/tfModuleDirectory/pkg/terraform"
 )
 
 func main() {
