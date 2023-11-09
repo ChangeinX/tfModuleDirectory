@@ -35,6 +35,12 @@ func CreateProjectStructure() error {
 		}
 	}
 
+	for _, file := range files {
+		if err := createFile(file); err != nil {
+			return fmt.Errorf("error creating file %s: %w", file, err)
+		}
+	}
+
 	return nil
 }
 
